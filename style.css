@@ -19,7 +19,7 @@ body {
     border-radius: 10px;
 }
 
-.container {
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,16 +40,18 @@ body {
     align-items: center;
 }
 
-.outfit-regular {
-    font-family: "Outfit", sans-serif;
-    font-weight: 400;
+.description {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsla(210, 67%, 1%, 1.00);
+    margin-bottom: 10px;
 }
 
-
-.outfit-bold {
-    font-family: "Outfit", sans-serif;
-    font-weight: 700;
-    margin-bottom: 10px;
+.sub-description {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    line-height: 1.5;
 }
 
 .text p {
